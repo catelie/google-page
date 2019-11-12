@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: white;
+  font-family: arial, sans-serif;
+}
+
+.container-1 {
+  width: 100%;
+  height: 60px;
+  background: white;
+  padding: 0px 8px 8px 8px;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.elemento {
+  color: black;
+  margin: 5px;
+  height: 32px;
+  width: auto;
+  background: none;
+  text-align: center;
+  display: inline-flex;
+  font-size: 13px;
+  align-items: center;
+}
+.elemento3 {
+  margin: 0px 9px 0px 12px;
+}
+.elemento4 {
+  border-radius: 999px;
+  overflow: hidden;
+  margin: 4px 19px 4px 6px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+a:active {
+  color: black;
+}
+
+.container-2 {
+  width: 100%;
+  height: 220px;
+  background: white;
+  margin-top: 38px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
+.imagengoogle {
+  width: 272px;
+  height: 201px;
+  padding-top: 91px;
+  background: none;
+  align-items: center;
+  display: flex;
+  line-height: 1;
+}
+.imagengoogle img {
+  width: 272px;
+  height: 92px;
+  display: block;
+  position: relative;
+}
+.imagengoogle a {
+  width: 272px;
+  height: 92px;
+  display: block;
+}
+
+.container-3 {
+  width: 100%;
+  background: white;
+  margin: auto;
+  padding: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.barra {
+  display: block;
+  width: 584px;
+  height: 46px;
+  border-radius: 24px;
+  box-shadow: none;
+  border: 1px solid #dfe1e5;
+  position: relative;
+}
+.barra:hover {
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  border-color: rgba(223, 225, 229, 0);
+}
+.search-icon {
+  height: 20px;
+  width: 20px;
+  color: #9aa0a6;
+  margin-top: 3px;
+  display: inline-block;
+  position: absolute;
+  opacity: 0.3;
+  top: 9px;
+  left: 11px;
+  cursor: pointer;
+}
+.micro {
+  height: 24px;
+  width: 24px;
+  top: 9px;
+  left: 544px;
+  position: absolute;
+  cursor: pointer;
+}
+input {
+  display: block;
+  text-align: start;
+  cursor: text;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  color: black;
+  border: none;
+  background: transparent;
+  position: absolute;
+  padding: 0px 38px 0px 38px;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  font: 16px arial, sans-serif;
+  outline: none;
+}
+.container-4 {
+  width: 100%;
+  height: 88px;
+  padding: 12px 0px 0px 0px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.buscar {
+  width: 153.08px;
+  height: 36px;
+  color: #5f6368;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  padding: 0px 16px;
+  margin: 11px 4px;
+  cursor: pointer;
+  position: relative;
+}
+.buscar:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  background-image: -webkit-linear-gradient(top, #f8f8f8, #f1f1f1);
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  color: #222;
+}
+.buscar:focus {
+  border: 1px solid #4d90fe;
+  outline: none;
+}
+.suerte {
+  width: 147.64px;
+  height: 36px;
+  color: #5f6368;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  padding: 0px 16px;
+  margin: 11px 4px;
+  cursor: pointer;
+  position: relative;
+}
+.suerte:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  background-image: -webkit-linear-gradient(top, #f8f8f8, #f1f1f1);
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  color: #222;
+}
+.suerte:focus {
+  border: 1px solid #4d90fe;
+  outline: none;
+}
+
+.container-5 {
+  width: 100%;
+  height: 28px;
+  margin-top: 1px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: small;
+}
+.languages {
+  width: 287px;
+  height: 28px;
+  position: relative;
+  align-items: center;
+  display: inline-flex;
+  line-height: 28px;
+}
+#idiomas a {
+  padding: 0px 3px;
+  color: #1a0dab;
+}
+#idiomas a:visited {
+  color: #609;
+}
+#idiomas a:active a:hover {
+  text-decoration: underline;
+}
